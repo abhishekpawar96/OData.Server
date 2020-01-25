@@ -23,24 +23,13 @@ project/plugins/project/
 .worksheet
 .idea
 
-# sbt-pin
-.pin.conf
-sbt-pin-repo/
-
-# Marmolata sbt plugin
-scalastyle-config.xml
-whitesource*
-.whitesource*
-*.out
-
-*.swp
-.DS_store
-!.keep
 
 .swn
 .swo
 .idea
 *.iml
+*.swp
+!.keep
 
 # xmake
 gen/
