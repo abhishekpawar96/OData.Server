@@ -34,4 +34,4 @@ lazy val odataServiceJVM = project.in(file("service"))
 		assemblyOutputPath in assembly := file("target/odata_service.jar")
 	)
 
-mainClass in assembly := Some("com.sap.marmolata.odata.localservice.v2.LocalServer")
+mainClass in assembly := Some("odata.localservice.v2.LocalServer")
